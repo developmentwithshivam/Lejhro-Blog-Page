@@ -4,7 +4,6 @@ import Footer from "./Footer/Footer";
 import ScrollNavbar from "./Navbar/ScrollNavbar";
 import { useEffect, useState } from "react";
 function App() {
-// heloo this is me
   const [scrollPosition, setScrollPosition] = useState(0);
 
   const handleScroll = () => {
